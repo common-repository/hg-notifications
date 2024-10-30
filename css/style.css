@@ -1,0 +1,54 @@
+/*---------------------------------------------
+//  notificaciones
+//---------------------------------------------
+*/
+
+#notificacion-container{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 0;
+	z-index: 99999;
+}
+
+.notificacion{
+	width: 40%;
+	height: auto;
+	background: white;
+	margin: 0 auto;
+	margin-top: 10%;
+	box-shadow: 0 0 50px #000000;
+    -moz-box-shadow: 0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.notificacion h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 27px;
+	margin-bottom: 10px;
+}
+
+#cerrar{
+	color: #d3d3d3;
+	margin-top: -25px;
+	margin-right: -33px;
+	font-size: 45px;
+	text-shadow: 0 1px 0 black;
+	position: absolute;
+	top: -5px;
+	right: 20px;
+}
+
+#cerrar:hover{
+	cursor: pointer;
+}
